@@ -24,4 +24,6 @@ def self.create(name)
   artist
 end
 
+def add_song 
+end
 end
