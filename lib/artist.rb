@@ -9,4 +9,7 @@ end
 def self.all
   @@all 
 end
+
+def save 
+  @@all
 end
