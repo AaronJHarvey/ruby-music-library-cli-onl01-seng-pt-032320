@@ -17,4 +17,9 @@ end
 def self.destroy_all 
   @@all.clear
 end
+
+def self.create
+  artist = Artist.new 
+  artist.save
+  artist
 end
