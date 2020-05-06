@@ -23,4 +23,5 @@ def self.create(name)
   artist.save
   artist
 end
+
 end
