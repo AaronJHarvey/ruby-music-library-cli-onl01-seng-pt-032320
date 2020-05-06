@@ -21,7 +21,6 @@ class Song
     song = Song.new(name)
     song.save
     song
-    
 end
   
 end
