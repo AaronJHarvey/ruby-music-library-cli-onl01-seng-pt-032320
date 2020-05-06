@@ -23,3 +23,4 @@ def self.create
   artist.save
   artist
 end
+end
