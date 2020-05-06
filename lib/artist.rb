@@ -28,6 +28,6 @@ end
 
 def add_song(song)
   song.artist = self 
-  @song << song 
+  @song << song unless song
 end
 end
