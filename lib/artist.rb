@@ -11,5 +11,6 @@ def self.all
 end
 
 def save 
-  @@all
+  self.class.all << self
+end
 end
